@@ -1,0 +1,38 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <sep></sep>
+  <category name="Autocode" colour="#a55b80">
+    <block type="kv_get">
+      <field name="var"></field>
+      <field name="key"></field>
+      <field name="defaulty"></field>
+    </block>
+    <block type="kv_set">
+      <field name="var"></field>
+      <field name="NAME"></field>
+      <field name="val"></field>
+      <field name="sec"></field>
+    </block>
+    <block type="kv_clear">
+      <field name="NAME"></field>
+    </block>
+  </category>
+  <sep></sep>
+  <category name="Channel" colour="#5ba58c">
+    <block type="discord_destroy">
+      <field name="message"></field>
+      <field name="chanenl"></field>
+    </block>
+    <block type="discord_channel_create">
+      <field name="GUILD">1234567890</field>
+      <field name="CNAME"></field>
+      <field name="TOPIC"></field>
+      <field name="PID"></field>
+    </block>
+  </category>
+  <category name="Role" colour="#9fa55b">
+    <block type="discord_role_create">
+      <field name="GUILD">1234567890</field>
+      <field name="NAME"></field>
+    </block>
+  </category>
+</xml>

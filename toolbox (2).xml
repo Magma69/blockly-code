@@ -1,0 +1,15 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <block type="return_message">
+    <field name="ID">1234567890</field>
+  </block>
+</xml>
+
+
+
+
+<category name="Context" colour="#5ba55b">
+<block type="bot_login"/>
+<block type="user_id"/>
+<block type="event_channel"/>
+<block type="guild_id"/>
+</category>

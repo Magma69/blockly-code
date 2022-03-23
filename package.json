@@ -1,0 +1,9 @@
+{
+  "name": "botwebsite",
+  "author": "Magma69",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "google-blockly": "^1.0.0"
+  }
+}

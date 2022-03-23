@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blocky Code | Support Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- you can change the website icon by change the href link -->
+  <link rel="icon" type="image/png" href="./img/logo.png">
+  <link rel="stylesheet" type="text/css" href="./css/a.css">
+
+
+<!-- Starts with the opening of the docs -->
+<body>
+
+<!-- Opening -->
+<header>
+<div class="container">
+ <div id="branding">
+  <h1><span class="highlight">Blockly Documentation</span></h1>
+</div>
+<ul>
+<li><a href="blockly-docs.html">Docs</a></li>
+<li class="current"><a href="blockly-team.html">Team</a></li>
+<li><a href="index.html">Home</a></li>
+</ul>
+</div>
+</header>
+<p>There are lots of amazing things you can do with Blockly Code! 
+But with all the blocks and more being added it is helpful to know what each one does and how to correctly use it.
+<br>
+<br>
+<br>
+Here is some documentation on how to use some of Blockly Codes blocks correctly.
+Below is a picture showing you how to correctly read the documentation. 
+</p>
+<br>
+<br>
+<br>
+<h3>Logic Operations</h3>
+<p>Logic Operations help code run in paths. This also helps out when using algorithms and other computer implementations. 
+Starting off with one of the most used statements in the whole world! The <code>IF</code> statement will take everything in the 
+<code>()</code> and see if it is true, if it is then it will run the code inside the <code>{}</code> or in this case everything inside the block<p>
+<img src="./img/ifBlock.png" alt="image"> 
+<p>Above is what the <code>IF</code> block looks like on Blockly Code. 
+As you can see there is a connection on the right side where you can connect more Logic Operations to it.
+ There is also a gear symbol on the left side of the block. We will look at that in a few seconds.
+ When using the block in Blockly’s Lab you will see on the right side something like this show up:<br>
+<code><pre>
+if (false) {
+}
+</pre></code><br>
+That is what the block will do with nothing connecting into it.
+ Right now the code generator is showing the JavaScript adaption for the block you can change that by using the dropdown menu above the display.</p>
+<img src="./img/dropdown.png" alt="image"> <br>
+<p><b>Right now we only support the Code Languages listed but we plan on adding in more support for different languages.</b></p>
+<br>
+<br>
+<br>
+<p>There is a way to add in the <code>ELSE</code> block to the <code>IF</code> statement. 
+By clicking on the gear symbol on the <code>IF</code> block it will bring up something like this:</p>
+<img src="./img/ifDropDown.png" alt="image"><br>
+<p>You can then drag the correct blocks from the left onto the workspace on the right. 
+You can connect them to the <code>IF</code> block and it will then show up on the code generator output and on the workspace.
+<br><br><b>Please note: When adding in ELSE, and ELSE IF statements use the ELSE block to finish off the code. 
+You can NOT put any blocks past the ELSE statement because it has no connections.<b><br><br><b>When you are done adding in stuff 
+click the gear again to close the popup!<b></p>
+<img src="./img/lastIF.png" alt="image"><br>
+<footer>
+<p class="footer">Blockly Copyright &copy; 2022</p>
+</footer>
+</html>
